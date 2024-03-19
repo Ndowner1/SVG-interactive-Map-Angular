@@ -1,0 +1,11 @@
+<!--All component tags and html to format component should go into this as it is the approot-->
+
+  <div id="page">
+    <div id="svgmap">
+      <app-map-component (sendData) = "receiveData($event)"></app-map-component>
+    </div>
+  
+    <div id="datadisplay">
+      <app-data-display [displayedData]="passedData"></app-data-display>
+    </div>
+  </div>

@@ -1,0 +1,25 @@
+.Selected {
+   
+    fill:darkgreen
+}
+
+svg path {
+    
+    cursor: pointer;
+}
+
+svg path:hover {
+
+    fill: grey;
+}
+
+#tooltip {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
